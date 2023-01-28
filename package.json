@@ -1,0 +1,24 @@
+{
+  "name": "typescript-webpack-template",
+  "version": "1.0.0",
+  "description": "Drawing platforms",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --config webpack.config.dev.ts --mode=development ",
+    "serve": "webpack-dev-server --config webpack.config.dev.ts --mode=development ",
+    "build-production": "webpack --config webpack.config.pro.ts --mode=production",
+    "serve-production": "webpack-dev-server --config webpack.config.pro.ts --mode=production "
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
